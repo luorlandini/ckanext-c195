@@ -10978,6 +10978,9 @@ body {
 .homepage .module-search .tags {
   background-color: #f3f3f3;
 }
+.homepage .module-search {
+  margin: 20px;
+}
 /* Button */
 .btn-primary:hover {
   color: #fff;
@@ -10987,6 +10990,23 @@ body {
 .label[data-format=csv],
 .label[data-format*=csv] {
   background-color: #197f54;
+}
+.jumbotron {
+  background-image: url(../../../base/img/anaee_hp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 16px;
+  filter: saturate(0.75);
+}
+.jumbotron .lead {
+  color: #ffffff;
+  font-weight: normal;
+  background-color: rgba(25, 127, 84, 0.9);
+  margin-top: 150px;
+  font-size: 14px;
+  padding: 32px;
+  width: 70%;
 }
 @font-face {
   font-family: 'Montserrat';
