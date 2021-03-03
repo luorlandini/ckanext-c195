@@ -1,0 +1,44 @@
+<div class="homepage-main" role="main">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+            <p class="lead">
+            {% trans %}
+
+            AnaEE (Analysis and Experimentation on Ecosystems) will pave the way for understanding the
+            complex impact of today’s multiple, interacting global change drivers on terrestrial and
+            aquatic continental ecosystems across Europe. It will forge evidence-based adaptation and mitigation
+            strategies that assure plant, soil, water, biodiversity and ecosystem health today and in the future.
+            <br/><br/>
+            Those strategies are needed to maintain essential services to society, including carbon sequestration,
+            food security, clean water, biodiversity. Characteristic to AnaEE its versatile facilities that can simulate
+            environmental drivers from land-use change, pollution, biological invasions, rising atmospheric greenhouse gases concentrations,
+            and to increasing extreme events such as droughts and heatwaves. AnaEE has the potential to look into the future,
+            thanks to the integrative and coordinated usage of its experimental, analytical and modelling facilities<a href="https://www.anaee.eu/" target="_blank" >
+                [....more]
+            </a>
+            {% endtrans %}
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- S SEARCH -->
+        {% block search %}
+        {% snippet 'home/snippets/search.html' %}
+        {% endblock %}
+        <!-- E SEARCH -->
+    </div>
+
+    <div class="container sections">
+        <!-- S TOPICS -->
+            <div class="row">
+                <div class="col-xs-12">
+                    {% snippet 'home/snippets/topics.html' %}
+                </div>
+            </div>
+        <!-- E TOPICS -->
+
+
+    </div>
+</div>
+<!-- E TEMPLATE 20180724-->

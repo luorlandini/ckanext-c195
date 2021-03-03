@@ -24,6 +24,15 @@ body {
     background: @anaeeDefaultColor;
 }
 
+.search-form .search-input.search-giant button i {
+    font-size: 28px;
+    width: 28px;
+    color: #197f54;
+}
+
+.homepage .module-search .search-giant input {
+    border-color: @anaeePrimaryColor;
+}
 
 .simple-input .field .btn-search {
     color: #197f54;
@@ -93,6 +102,53 @@ body {
     background-color: #f3f3f3;
 }
 
+.homepage-main .item-container {
+    margin: 20px 0;
+}
+
+
+/* Home page item */
+.item-summary {
+    margin: 16px;
+    width: 230px;
+    border-left: none;
+    border-radius: 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 20px;
+    min-height: 130px;
+    transition: box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.item-container .item-container-body {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-img{
+    min-height: 200px;
+    vertical-align: middle;
+}
+
+.homepage-main .item-see-all {
+    text-align: right;
+    margin-top: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item-container .item-container-head {
+    display: flex;
+    align-items: center;
+    color:#197f54;
+}
+
+.item-container .item-container-head h3 {
+    flex: 1;
+}
+
 /* Button */
 .btn-primary:hover {
     color: #fff;
@@ -102,4 +158,27 @@ body {
 /* label */
 .label[data-format=csv], .label[data-format*=csv] {
     background-color: #197f54;
+}
+
+.jumbotron {
+    background-image: url(../../../base/img/jumbotron_hp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 16px;
+    filter: saturate(0.75);
+}
+
+.jumbotron .lead {
+    color: #ffffff;
+    font-weight: normal;
+    background-color: rgba(25, 127, 84, 0.9);
+    margin-top: 150px;
+    font-size: 14px;
+    padding: 32px;
+    width: 70%;
+}
+
+.jumbotron a{
+    color: #f3f3f3;
 }
