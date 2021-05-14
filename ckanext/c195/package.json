@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-css": "lessc less/main.less public/base/css/main.css",
+    "compile-css": "lessc -x less/main.less public/base/css/main.css",
     "watch-less": "less-watch-compiler less/ public/base/css main.less"
   },
   "author": "",
